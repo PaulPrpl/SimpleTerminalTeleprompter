@@ -30,7 +30,7 @@ def delay(cpt):
 
 delay(countdown)
 
-with open('./script.txt', 'r') as script:
+with open(file, 'r') as script:
 	text = script.readlines()
 	for line in text:
 		sleep(interLinesDelay)
